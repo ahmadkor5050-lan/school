@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
 import Location from './_components/Location'
+import WeekPlan from './_components/WeekPlan' 
 
 export default function page() {
   return (
@@ -22,6 +23,7 @@ export default function page() {
   </svg>
       </a>
     <Location />
+    <WeekPlan />
     </div>
   )
 }
